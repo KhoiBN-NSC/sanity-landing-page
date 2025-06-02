@@ -23,7 +23,7 @@ export function HeroSection() {
     },
     [
       (slider) => {
-        let timeout: Timeout;
+        let timeout: ReturnType<typeof setTimeout>;
         let mouseOver = false;
         function clearNextTimeout() {
           clearTimeout(timeout);
