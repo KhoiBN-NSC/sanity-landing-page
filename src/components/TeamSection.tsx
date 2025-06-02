@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export function TeamSection() {
   return (
     <section className="py-16 bg-gray-100 text-center">
@@ -7,7 +5,7 @@ export function TeamSection() {
       <div className="flex flex-wrap justify-center gap-10">
         {Array.from({ length: 4 }).map((_, index) => (
           <div key={index} className="text-center">
-            <Image
+            <img
               width={120}
               height={120}
               src="https://avatar.iran.liara.run/public"
