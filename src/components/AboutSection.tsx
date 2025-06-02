@@ -5,7 +5,7 @@ export function AboutSection() {
         <img src="https://placehold.co/300x300" alt="Team Member" className="rounded-full" />
         <div>
           <h2 className="text-3xl font-bold mb-1">Dedicated to help people design needs</h2>
-          <p className="font-semibold text-sm text-center italic">"We blend design and strategy to build incredible experiences for our clients"</p>
+          <p className="font-semibold text-sm text-center italic">We blend design and strategy to build incredible experiences for our clients</p>
         </div>
       </div>
     </section>
