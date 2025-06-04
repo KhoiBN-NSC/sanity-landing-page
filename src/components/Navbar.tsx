@@ -4,9 +4,9 @@ export function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div className="text-lg font-bold">Fictitious Co</div>
         <ul className="flex gap-4 text-sm font-semibold">
-          <li><a href="#carousel">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#pricing">Pricing</a></li>
         </ul>
       </div>
     </nav>

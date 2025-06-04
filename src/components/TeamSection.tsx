@@ -1,6 +1,6 @@
 export function TeamSection() {
   return (
-    <section className="py-16 bg-gray-100 text-center">
+    <section id="contact" className="py-16 bg-gray-100 text-center">
       <h2 className="text-3xl font-bold mb-12">Meet Our Team</h2>
       <div className="flex flex-wrap justify-center gap-10">
         {Array.from({ length: 4 }).map((_, index) => (
